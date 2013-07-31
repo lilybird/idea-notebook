@@ -1,0 +1,10 @@
+<h1>List of Ideas</h1>
+
+<ul>
+  <% @ideas.each do |idea| %>
+    <li>
+      <p><%= idea.name %></p>
+      <p><%= idea.description %></p>
+    </li>
+  <% end %>
+</ul>
